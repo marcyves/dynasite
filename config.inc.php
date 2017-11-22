@@ -1,18 +1,8 @@
 <?php
 
-/*
-==============================================================================
-		Configuration du framework GRETA
-
-This file contains a list of variables that can be modified by the site
-administrator. Pay attention when changing these variables, some changes
-can cause the site to stop working.
-==============================================================================
-*/
-
-$dossier_template = './template/';
+$dossier_template = 'template';
 $dossier_menu     = "menu";
-$dossier_social   = "social/";
+$dossier_social   = "social/"; 
 
 /* Choix possibles:
  - massively
@@ -32,7 +22,7 @@ $etiquette['contact'] = '<h3>Address</h3>
 							<section>
 								<h3>Email</h3>
 								<p><a href="#">info@untitled.tld</a></p>';
-
+								
 $etiquette['footer']= '<form method="post" action="#">
 								<div class="field">
 									<label for="name">Name</label>

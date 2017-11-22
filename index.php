@@ -6,7 +6,7 @@ require('fonctions.inc.php');
 if (isset($_GET['page'])){
 	$page_active = $_GET['page'];
 } else {
-	$page_active = "1accueil";
+	$page_active = "accueil";
 }
 						
 echo decodeTemplate($theme,$etiquette, $page_active);
