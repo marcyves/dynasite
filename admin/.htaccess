@@ -1,4 +1,4 @@
-AuthName "Page d'administration prot�g�e"
+AuthName "Page d'administration protégée"
 AuthType Basic
-AuthUserFile "/Applications/XAMPP/xamppfiles/htdocs/dynasite/admin/.htpasswd"
+AuthUserFile "/chemin/vers/dynasite/admin/.htpasswd"
 Require valid-user
